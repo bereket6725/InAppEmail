@@ -36,7 +36,7 @@
     [composer setMailComposeDelegate:self];
     
     if ([MFMailComposeViewController canSendMail]){
-        [composer setToRecipients: [NSArray arrayWithObjects:@"bereket6725@gmail.com", nil]];
+        [composer setToRecipients: [NSArray arrayWithObjects:@"", nil]]; //insert email here
         [composer setSubject:@"testing InAppEmail"];
         [composer setMessageBody:@"" isHTML:NO];
         [composer setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
